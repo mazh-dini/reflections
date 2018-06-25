@@ -1,1 +1,18 @@
 diff -u oldFile newFile // Compare the difference between the files + corresponds to a new line and - corresponds to a removed line
+
+pwd # print working directory
+ls # list the files in this directory
+
+How did viweing a diff between two versions of a file help you see the bug that was introduced?
+
+It showed what was changed side by side with both new and old code, which made it easy to identify the mistake which in this case was a spelling mistake
+
+How could having easy access to the entire history of a file make you a more effecient programmer in the long term
+
+git log # shows all commits and their messages
+git diff id1 id2 # shows differences between git versions similar to diff -u file1 file2
+adding the paramater git log --stat shows what files have been changed
+
+Make one commit per logical change
+
+git clone url
