@@ -1,0 +1,7 @@
+git pull # retrieve data from remote source
+git push # upload data to remote source
+
+git remote # shows all current remote repos
+git remote add remoteName url # add a remote repo for the currrent repo
+git push remoteName branchName # pushes local repo to github
+git pull remoteName branchName # updates local repo with github branch
