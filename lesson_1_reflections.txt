@@ -1,0 +1,1 @@
+diff -u oldFile newFile // Compare the difference between the files + corresponds to a new line and - corresponds to a removed line

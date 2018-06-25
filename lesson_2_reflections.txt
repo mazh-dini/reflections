@@ -1,0 +1,9 @@
+Summary of commands learnt
+
+git diff id1 id2 # compares two commits, printing each line that is present on commit but not the other
+
+git clone url # makes a copy of an entire github repo, including the history, onto your computer
+
+git checkout # Temporarily reset files in a directory to their state at the time of a specific commit.
+
+git log # show the commits made in this repo, starting with the most recent
