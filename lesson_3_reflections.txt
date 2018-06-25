@@ -1,0 +1,29 @@
+How to make a Git Repo
+
+git init # treats the current directory as a empty git repo
+git add file # add files to the staging area / the files you want to commit
+git reset file # If you accidentally add a file to the staging area you can remove it with this
+git checkout master # return to up to date branch
+git diff # shows changes that havent been commited yet
+git diff --staged # shows the difference between staging area and the repo
+git reset --hard # discards all changes to the working directory, makes it like the repo
+
+Working Directory - Whatever is in the actual directory
+Staging Area - Put all files you want to commit into this to get ready to commit it as one logical change
+Git Repository - What is saved to the repository at the moment
+
+Useful Commands
+git status # Shows what files have changed since the last commit
+
+Making a Branch
+git branch # shows current branches
+git branch name # creates a new branch with the same contents of the current branch
+
+What are some situations when branches would be helpful in keeping your history organised? How would branches help?
+Adding a new feature, changing a language, making a game easier, experimenting with project, etc.
+
+Some details
+
+- Each commit has a reference to the commit before it, if a commit is made in a deteached head state there is no way for you to return to that commit when you leave unless you now the id. So to save any changes to commits you make previously do git checkout - b branchname
+
+git merge branch1 branch2 # conflicts can be resolved by looking in the file that has conflicts and deciding which code is to be used in the final merge
