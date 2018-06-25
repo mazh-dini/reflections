@@ -5,3 +5,13 @@ git remote # shows all current remote repos
 git remote add remoteName url # add a remote repo for the currrent repo
 git push remoteName branchName # pushes local repo to github
 git pull remoteName branchName # updates local repo with github branch
+
+Merging Remote Changes
+
+# merges both local and remote changes
+git pull origin master # Does the same as the bottom two commands
+
+git fetch origin # saves of copy of the remote branch so you can explore it using checkout, log and diff
+git merger master origin/master
+
+
